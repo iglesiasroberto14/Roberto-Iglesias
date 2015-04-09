@@ -1,0 +1,16 @@
+
+C:\Program Files (x86)\Dev-Cpp\MinGW64\bin>gcc holamundo.cpp -o holamundo
+C:\Users\Digiphot\AppData\Local\Temp\ccG6OYTZ.o:holamundo.cpp:(.text+0x1e): unde
+fined reference to `std::cout'
+C:\Users\Digiphot\AppData\Local\Temp\ccG6OYTZ.o:holamundo.cpp:(.text+0x23): unde
+fined reference to `std::basic_ostream<char, std::char_traits<char> >& std::oper
+ator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char>
+ >&, char const*)'
+C:\Users\Digiphot\AppData\Local\Temp\ccG6OYTZ.o:holamundo.cpp:(.text+0x4e): unde
+fined reference to `std::ios_base::Init::~Init()'
+C:\Users\Digiphot\AppData\Local\Temp\ccG6OYTZ.o:holamundo.cpp:(.text+0x7e): unde
+fined reference to `std::ios_base::Init::Init()'
+c:/program files (x86)/dev-cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/.
+./../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\Digiphot\AppData\Local\Temp\c
+cG6OYTZ.o: bad reloc address 0x0 in section `.pdata'
+collect2.exe: error: ld returned 1 exit status
