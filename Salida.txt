@@ -1,5 +1,5 @@
-Hola Profe!
+Hola Mundo
 
 --------------------------------
-Process exited after 0.04714 seconds with return value 0
+Process exited after 0.00996 seconds with return value 0
 Presione una tecla para continuar . . .
