@@ -1,9 +1,11 @@
+/*
+Roberto Iglesias
+13042015
+Programa que imprime en pantalla el texto "Hola Mundo"
+*/
 #include <iostream>
-#include <stdlib.h>
 
-int main(int argc, char** argv) {
-	std::cout << "Hola Profe!\n";
-	system("pause");
-	return 0;
+int main() {
+	std::cout << "Hola Mundo\n";
 }
 
