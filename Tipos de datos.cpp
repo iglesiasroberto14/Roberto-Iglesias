@@ -12,7 +12,7 @@ int main (){
 	
 	int entero1=0, entero2=0;
 	float real1=0, real2=0;
-	char pal1[64], pal2[64], oracion[128];
+	char pal1[64]= "", pal2[64] ="", oracion[128] ="";
 	bool booleano1, booleano2; 
 	
 	/*Ingreso de los numeros enteros*/
@@ -66,6 +66,13 @@ int main (){
 	/*Operaciones con caracteres*/
 	strcat(oracion, pal1);
 	strcat(oracion, pal2);
+	
+	if (*pal1==*pal2) cout << "Los textos son identicos" << endl;
+	else {
+		cout << "Ingreso textos distintos" << endl;
+		if (*pal1<*pal2) cout << "El texto B contiene mas caracteres que el A" << endl;
+		if (*pal1>*pal2) cout << "El texto A contiene mas caracteres que el B" << endl;
+	}
 	cout << oracion << endl;
 	*oracion = *pal1 & *pal2;
 	cout << oracion << endl;
