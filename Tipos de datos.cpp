@@ -67,6 +67,8 @@ int main (){
 	strcat(oracion, pal1);
 	strcat(oracion, pal2);
 	
+	cout << "Modulo de la primer cadena de texto: "<<strlen(pal1) << endl; //modulo de 
+	cout << "Modulo de la segunda cadena de texto: "<<strlen(pal2) <<endl;// una cadena
 	if (*pal1==*pal2) cout << "Los textos son identicos" << endl;
 	else {
 		cout << "Ingreso textos distintos" << endl;
@@ -83,6 +85,13 @@ int main (){
 	cin >> booleano1;
 	cout << "Ingrese 1 o 0 para booleano B" <<endl;
 	cin >> booleano2;
+	
+	// Operaciones con booleanos
+	
+	cout << "Operacion OR: "<< (booleano2 or booleano1) <<endl;
+	cout << "Operacion AND: "<< (booleano2 and booleano1)<< endl;
+	cout << "Booleano A Negado: " << not booleano1<<endl; 
+	cout << "Booleano B Negado: " << not booleano2 <<endl;
 	
 	if (booleano1==booleano2)	cout << "Ambos booleanos son iguales"<< endl;
 	else {

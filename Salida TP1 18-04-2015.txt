@@ -1,0 +1,61 @@
+Ingrese un numero entero A
+10
+Ingrese un numero entero B
+20
+Suma
+30
+
+Resta
+-10
+
+Multiplicacion
+200
+
+Division
+0
+
+Resto de la division entera
+10
+
+El numero B es mayor
+
+Ingrese un numero real A
+3.5
+Ingrese un numero real B
+4.6
+Suma
+8.1
+
+Resta
+-1.1
+
+Multiplicacion
+16.1
+
+Division
+0.76087
+
+El numero A es menor
+Ingrese un texto 'A'
+Hola
+Ingrese un texto 'B'
+Mundo
+Modulo de la primer cadena de texto: 4
+Modulo de la segunda cadena de texto: 5
+Ingreso textos distintos
+El texto B contiene mas caracteres que el A
+HolaMundo
+HolaMundo
+Ingrese 1 o 0 para booleano A
+1
+Ingrese 1 o 0 para booleano B
+0
+Operacion OR: 1
+Operacion AND: 0
+Booleano A Negado: 0
+Booleano B Negado: 1
+Booleano A es 1 y booleano B es 0
+
+--------------------------------
+Process exited after 15.35 seconds with return value 0
+Presione una tecla para continuar . . .
